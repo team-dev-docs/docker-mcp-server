@@ -1,5 +1,9 @@
 {
-    "ai": {
-        "contextPrompt": "dev-docs/context-instructions.md"
-    }
+  "gitHubApp": {
+    "approvalWorkflow": true,
+    "userDocsWorkflows": [
+      "generateUserDocs"
+    ],
+    "issues": true
+  }
 }
